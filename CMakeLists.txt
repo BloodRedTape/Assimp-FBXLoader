@@ -10,3 +10,4 @@ target_include_directories(assimp-fbxloader PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/code/
     ${CMAKE_CURRENT_SOURCE_DIR}/
 )
+target_link_libraries(assimp-fbxloader z)
